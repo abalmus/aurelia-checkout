@@ -2,12 +2,13 @@ import {children, inject, inlineView} from 'aurelia-framework';
 import {EventAggregator} from 'aurelia-event-aggregator';
 import {SectionCompleted, EditSection} from './messages';
 
-@inject(EventAggregator)
 @inlineView(`
     <template>
         <content></content>
     </template>`
 )
+
+@inject(EventAggregator)
 export class Checkout {
     @children('checkout-section') sections = [];
     activeSection = null;
