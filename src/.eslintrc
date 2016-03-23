@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "no-alert": 0,
+    "indent": 2
+  }
+}
