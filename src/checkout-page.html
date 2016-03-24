@@ -1,10 +1,6 @@
 <template>
     <require from="checkout/checkout"></require>
     <require from="checkout/checkout-section"></require>
-    <require from="checkout/sections/billing"></require>
-    <require from="checkout/sections/shipping"></require>
-    <require from="checkout/sections/payment"></require>
-    <require from="checkout/sections/thank-you"></require>
     <require from="checkout/sections/review"></require>
 
     <div class="container wrapper">
@@ -15,21 +11,10 @@
                 </div>
                 <div class="col-sm-6 col-sm-pull-6">
                     <checkout>
-                        <checkout-section title="Shipping Address" name="shipping">
-                            <shipping></shipping>
-                        </checkout-section>
-
-                        <checkout-section title="Billing Address" name="billing">
-                            <billing></billing>
-                        </checkout-section>
-
-                        <checkout-section title="Payment" name="payment">
-                            <payment></payment>
-                        </checkout-section>
-
-                        <checkout-section title="Thank you" name="thank-you">
-                            <thank-you></thank-you>
-                        </checkout-section>
+                        <checkout-section title="Shipping Address" name="shipping"></checkout-section>
+                        <checkout-section title="Billing Address" name="billing"></checkout-section>
+                        <checkout-section title="Payment" name="payment"></checkout-section>
+                        <checkout-section title="Thank you" name="thank-you"></checkout-section>
                     </checkout>
                 </div>
             </form>
