@@ -13,6 +13,7 @@ To run the app, follow these steps.
 
   ```shell
   npm install
+  jspm install -y
   ```
 3. To run the app, execute the following command:
 
