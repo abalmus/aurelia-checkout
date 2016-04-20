@@ -1,7 +1,6 @@
 # aurelia-checkout-starter
 
-Aurelia checkout starter for [Front end frameworks](https://milestone.tacitknowledge.com/display/FE/Front+end+frameworks) WiKi page.
-
+Aurelia checkout starter
 > Note this is just an example, but could be used as starter for the future projects.
 
 ## Running The App
